@@ -1,0 +1,3 @@
+[submodule "docs/Startpage"]
+	path = docs/Startpage
+	url = https://github.com/EthanHarv/Startpage
