@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background-color: black;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    opacity: 0;
+
+  } 
+
+#mainText {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    padding-top: 12%;
+    color: white;
+    opacity: 0;
+    z-index: 3;
+}
+
+#mainText h1 {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#mainText ul,
+#mainText li{
+    font-size: x-large;
+    padding-top: 25px;
+}
+
+a:link,
+a:visited {
+    color: #aaa
+}
+a:hover,
+a:active {
+    color: white
+}
+
+/*# sourceMappingURL=main.css.map*/
